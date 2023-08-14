@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamesDesign", "GamesDesign\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimedQueueEx", "TimedQueueEx\TimedQueueEx.csproj", "{3374CCEB-29EA-46F6-8A10-B0628BA3BD75}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainExercise", "TrainExercise\TrainExercise.csproj", "{01818434-35D0-49E7-A972-1D34CC4C52EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{3374CCEB-29EA-46F6-8A10-B0628BA3BD75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3374CCEB-29EA-46F6-8A10-B0628BA3BD75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3374CCEB-29EA-46F6-8A10-B0628BA3BD75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01818434-35D0-49E7-A972-1D34CC4C52EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01818434-35D0-49E7-A972-1D34CC4C52EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01818434-35D0-49E7-A972-1D34CC4C52EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01818434-35D0-49E7-A972-1D34CC4C52EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
