@@ -6,10 +6,10 @@ namespace TrainExercise
 		private Locomotive locomotive;
 		private List<Cabin> cabins;
 
-		public Train(Locomotive _locomotive, List<Cabin> _cabins)
+		public Train(Locomotive locomotive, List<Cabin> cabins)
 		{
-			locomotive = _locomotive;
-			cabins = _cabins;
+			this.locomotive = locomotive ?? throw new ArgumentNullException(nameof(locomotive));
+			this.cabins = cabins ?? throw new ArgumentNullException(nameof(cabins));
 		}
 
 		public void StartMoving()

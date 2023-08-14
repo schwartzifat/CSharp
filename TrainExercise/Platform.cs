@@ -5,6 +5,10 @@ namespace TrainExercise
 	{
 		public Train AssembleTrain(int numOfCabins)
 		{
+			if (numOfCabins < 0)
+			{
+				throw new ArgumentException("Number of cabins cannot be negative");
+			}
             Locomotive locomotive = new Locomotive();
             List<Cabin> cabins = new List<Cabin>();
             for (int i = 0; i < numOfCabins; i++)
