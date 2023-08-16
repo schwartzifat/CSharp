@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimedQueueEx", "TimedQueueE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainExercise", "TrainExercise\TrainExercise.csproj", "{01818434-35D0-49E7-A972-1D34CC4C52EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventsAndDelage", "arrayEx\EventsAndDelage.csproj", "{FE9A3F71-AB1D-4935-83DC-98680563D2FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{01818434-35D0-49E7-A972-1D34CC4C52EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01818434-35D0-49E7-A972-1D34CC4C52EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01818434-35D0-49E7-A972-1D34CC4C52EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE9A3F71-AB1D-4935-83DC-98680563D2FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE9A3F71-AB1D-4935-83DC-98680563D2FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE9A3F71-AB1D-4935-83DC-98680563D2FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE9A3F71-AB1D-4935-83DC-98680563D2FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
