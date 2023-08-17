@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainExercise", "TrainExerc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventsAndDelage", "arrayEx\EventsAndDelage.csproj", "{FE9A3F71-AB1D-4935-83DC-98680563D2FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainPubSub", "TrainPubSub\TrainPubSub.csproj", "{2B285B40-7A78-48A5-AFD7-B3EDA1644BB6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{FE9A3F71-AB1D-4935-83DC-98680563D2FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE9A3F71-AB1D-4935-83DC-98680563D2FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE9A3F71-AB1D-4935-83DC-98680563D2FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B285B40-7A78-48A5-AFD7-B3EDA1644BB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B285B40-7A78-48A5-AFD7-B3EDA1644BB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B285B40-7A78-48A5-AFD7-B3EDA1644BB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B285B40-7A78-48A5-AFD7-B3EDA1644BB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

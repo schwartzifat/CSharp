@@ -1,9 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace arrayEx;
+namespace eventsAndDelage;
 class Program
-{ 
+{
+    public delegate bool FilterDelegate<T>(T item);
+    public delegate R TransformDelegate<T, R>(T item);
+
     static void Main(string[] args)
     {
         Console.WriteLine("Hello, World!");
@@ -96,7 +99,8 @@ class Program
         Console.WriteLine("Length of names: " + string.Join(", ", lengthsNames));
 
     }
-    public static List<T> Filter<T>(List<T> items, Func<T, bool> predicate)
+
+    public static List<T> Filter<T>(List<T> items, FilterDelegate<T> predicate)
     {
         List<T> result = new List<T>();
         foreach (T item in items)
@@ -108,8 +112,20 @@ class Program
         }
         return result;
     }
+    //public static List<T> Filter<T>(List<T> items, Func<T, bool> predicate)
+    //{
+    //    List<T> result = new List<T>();
+    //    foreach (T item in items)
+    //    {
+    //        if (predicate(item))
+    //       {
+    //            result.Add(item);
+    //        }
+    //    }
+    //    return result;
+    //}
 
-    public static List<R> Transform<T,R>(List<T> items, Func<T, R>transforme)
+    public static List<R> Transform<T,R>(List<T> items, TransformDelegate<T,R> transforme)
     {
         List<R> result = new List<R>();
         foreach(T item in items)
@@ -118,5 +134,15 @@ class Program
         }
         return result;
     }
+
+    //public static List<R> Transform<T,R>(List<T> items, Func<T, R>transforme)
+    //{
+    //    List<R> result = new List<R>();
+    //    foreach(T item in items)
+    //    {
+    //        result.Add(transforme(item));
+    //    }
+    //    return result;
+    //}
 }
 
